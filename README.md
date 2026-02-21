@@ -1,2 +1,2 @@
-# cel-code-reader
+# lab-code-reader
 Datamatrix reader ios app
