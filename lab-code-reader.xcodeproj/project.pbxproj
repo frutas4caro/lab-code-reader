@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		561116D22EC572E300A27E46 /* lab_code_readerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561116D12EC572E300A27E46 /* lab_code_readerApp.swift */; };
-		561116D42EC572E300A27E46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561116D32EC572E300A27E46 /* ContentView.swift */; };
+		561116D22EC572E300A27E46 /* GridScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561116D12EC572E300A27E46 /* GridScannerApp.swift */; };
 		561116D62EC572E500A27E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561116D52EC572E500A27E46 /* Assets.xcassets */; };
 		561116DA2EC572E500A27E46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561116D92EC572E500A27E46 /* Preview Assets.xcassets */; };
 		561116E42EC572E500A27E46 /* lab_code_readerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561116E32EC572E500A27E46 /* lab_code_readerTests.swift */; };
 		561116EE2EC572E500A27E46 /* lab_code_readerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561116ED2EC572E500A27E46 /* lab_code_readerUITests.swift */; };
 		561116F02EC572E500A27E46 /* lab_code_readerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561116EF2EC572E500A27E46 /* lab_code_readerUITestsLaunchTests.swift */; };
+		569ECE052F490CBF00AA1AEA /* input.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 569ECE042F490CBF00AA1AEA /* input.jpg */; };
+		569ECE072F490CD300AA1AEA /* output.csv in Resources */ = {isa = PBXBuildFile; fileRef = 569ECE062F490CD300AA1AEA /* output.csv */; };
+		EEFF000200000000EEFF0002 /* VialRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000200000000CCDD0002 /* VialRecord.swift */; };
+		EEFF000300000000EEFF0003 /* ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000300000000CCDD0003 /* ScanResult.swift */; };
+		EEFF000400000000EEFF0004 /* ScanSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000400000000CCDD0004 /* ScanSession.swift */; };
+		EEFF000500000000EEFF0005 /* DataMatrixScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000500000000CCDD0005 /* DataMatrixScanService.swift */; };
+		EEFF000600000000EEFF0006 /* GridInferenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000600000000CCDD0006 /* GridInferenceService.swift */; };
+		EEFF000700000000EEFF0007 /* AnnotationRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000700000000CCDD0007 /* AnnotationRenderer.swift */; };
+		EEFF000800000000EEFF0008 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000800000000CCDD0008 /* CSVExporter.swift */; };
+		EEFF000900000000EEFF0009 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000900000000CCDD0009 /* ScanViewModel.swift */; };
+		EEFF000A00000000EEFF000A /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000A00000000CCDD000A /* HistoryViewModel.swift */; };
+		EEFF000B00000000EEFF000B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000B00000000CCDD000B /* HomeView.swift */; };
+		EEFF000C00000000EEFF000C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000C00000000CCDD000C /* CameraView.swift */; };
+		EEFF000D00000000EEFF000D /* ScanResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000D00000000CCDD000D /* ScanResultView.swift */; };
+		EEFF000E00000000EEFF000E /* AnnotatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000E00000000CCDD000E /* AnnotatedImageView.swift */; };
+		EEFF000F00000000EEFF000F /* ResultsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD000F00000000CCDD000F /* ResultsTableView.swift */; };
+		EEFF001000000000EEFF0010 /* SessionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD001000000000CCDD0010 /* SessionHistoryView.swift */; };
+		EEFF001100000000EEFF0011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD001100000000CCDD0011 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +52,7 @@
 
 /* Begin PBXFileReference section */
 		561116CE2EC572E300A27E46 /* lab-code-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-code-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		561116D12EC572E300A27E46 /* lab_code_readerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab_code_readerApp.swift; sourceTree = "<group>"; };
-		561116D32EC572E300A27E46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		561116D12EC572E300A27E46 /* GridScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridScannerApp.swift; sourceTree = "<group>"; };
 		561116D52EC572E500A27E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		561116D72EC572E500A27E46 /* lab_code_reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lab_code_reader.entitlements; sourceTree = "<group>"; };
 		561116D92EC572E500A27E46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +61,24 @@
 		561116E92EC572E500A27E46 /* lab-code-readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lab-code-readerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		561116ED2EC572E500A27E46 /* lab_code_readerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab_code_readerUITests.swift; sourceTree = "<group>"; };
 		561116EF2EC572E500A27E46 /* lab_code_readerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab_code_readerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		569ECE042F490CBF00AA1AEA /* input.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = input.jpg; sourceTree = "<group>"; };
+		569ECE062F490CD300AA1AEA /* output.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.csv; sourceTree = "<group>"; };
+		CCDD000200000000CCDD0002 /* VialRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VialRecord.swift; sourceTree = "<group>"; };
+		CCDD000300000000CCDD0003 /* ScanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResult.swift; sourceTree = "<group>"; };
+		CCDD000400000000CCDD0004 /* ScanSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSession.swift; sourceTree = "<group>"; };
+		CCDD000500000000CCDD0005 /* DataMatrixScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMatrixScanService.swift; sourceTree = "<group>"; };
+		CCDD000600000000CCDD0006 /* GridInferenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridInferenceService.swift; sourceTree = "<group>"; };
+		CCDD000700000000CCDD0007 /* AnnotationRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationRenderer.swift; sourceTree = "<group>"; };
+		CCDD000800000000CCDD0008 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		CCDD000900000000CCDD0009 /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		CCDD000A00000000CCDD000A /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		CCDD000B00000000CCDD000B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CCDD000C00000000CCDD000C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		CCDD000D00000000CCDD000D /* ScanResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultView.swift; sourceTree = "<group>"; };
+		CCDD000E00000000CCDD000E /* AnnotatedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotatedImageView.swift; sourceTree = "<group>"; };
+		CCDD000F00000000CCDD000F /* ResultsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableView.swift; sourceTree = "<group>"; };
+		CCDD001000000000CCDD0010 /* SessionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHistoryView.swift; sourceTree = "<group>"; };
+		CCDD001100000000CCDD0011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +109,8 @@
 		561116C52EC572E300A27E46 = {
 			isa = PBXGroup;
 			children = (
+				569ECE062F490CD300AA1AEA /* output.csv */,
+				569ECE042F490CBF00AA1AEA /* input.jpg */,
 				561116D02EC572E300A27E46 /* lab-code-reader */,
 				561116E22EC572E500A27E46 /* lab-code-readerTests */,
 				561116EC2EC572E500A27E46 /* lab-code-readerUITests */,
@@ -95,8 +131,11 @@
 		561116D02EC572E300A27E46 /* lab-code-reader */ = {
 			isa = PBXGroup;
 			children = (
-				561116D12EC572E300A27E46 /* lab_code_readerApp.swift */,
-				561116D32EC572E300A27E46 /* ContentView.swift */,
+				561116D12EC572E300A27E46 /* GridScannerApp.swift */,
+				AABB000100000000AABB0001 /* Models */,
+				AABB000200000000AABB0002 /* Services */,
+				AABB000300000000AABB0003 /* ViewModels */,
+				AABB000400000000AABB0004 /* Views */,
 				561116D52EC572E500A27E46 /* Assets.xcassets */,
 				561116D72EC572E500A27E46 /* lab_code_reader.entitlements */,
 				561116D82EC572E500A27E46 /* Preview Content */,
@@ -127,6 +166,50 @@
 				561116EF2EC572E500A27E46 /* lab_code_readerUITestsLaunchTests.swift */,
 			);
 			path = "lab-code-readerUITests";
+			sourceTree = "<group>";
+		};
+		AABB000100000000AABB0001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD000200000000CCDD0002 /* VialRecord.swift */,
+				CCDD000300000000CCDD0003 /* ScanResult.swift */,
+				CCDD000400000000CCDD0004 /* ScanSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AABB000200000000AABB0002 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD000500000000CCDD0005 /* DataMatrixScanService.swift */,
+				CCDD000600000000CCDD0006 /* GridInferenceService.swift */,
+				CCDD000700000000CCDD0007 /* AnnotationRenderer.swift */,
+				CCDD000800000000CCDD0008 /* CSVExporter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AABB000300000000AABB0003 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD000900000000CCDD0009 /* ScanViewModel.swift */,
+				CCDD000A00000000CCDD000A /* HistoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AABB000400000000AABB0004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD000B00000000CCDD000B /* HomeView.swift */,
+				CCDD000C00000000CCDD000C /* CameraView.swift */,
+				CCDD000D00000000CCDD000D /* ScanResultView.swift */,
+				CCDD000E00000000CCDD000E /* AnnotatedImageView.swift */,
+				CCDD000F00000000CCDD000F /* ResultsTableView.swift */,
+				CCDD001000000000CCDD0010 /* SessionHistoryView.swift */,
+				CCDD001100000000CCDD0011 /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +325,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569ECE072F490CD300AA1AEA /* output.csv in Resources */,
+				569ECE052F490CBF00AA1AEA /* input.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +344,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561116D42EC572E300A27E46 /* ContentView.swift in Sources */,
-				561116D22EC572E300A27E46 /* lab_code_readerApp.swift in Sources */,
+				561116D22EC572E300A27E46 /* GridScannerApp.swift in Sources */,
+				EEFF000200000000EEFF0002 /* VialRecord.swift in Sources */,
+				EEFF000300000000EEFF0003 /* ScanResult.swift in Sources */,
+				EEFF000400000000EEFF0004 /* ScanSession.swift in Sources */,
+				EEFF000500000000EEFF0005 /* DataMatrixScanService.swift in Sources */,
+				EEFF000600000000EEFF0006 /* GridInferenceService.swift in Sources */,
+				EEFF000700000000EEFF0007 /* AnnotationRenderer.swift in Sources */,
+				EEFF000800000000EEFF0008 /* CSVExporter.swift in Sources */,
+				EEFF000900000000EEFF0009 /* ScanViewModel.swift in Sources */,
+				EEFF000A00000000EEFF000A /* HistoryViewModel.swift in Sources */,
+				EEFF000B00000000EEFF000B /* HomeView.swift in Sources */,
+				EEFF000C00000000EEFF000C /* CameraView.swift in Sources */,
+				EEFF000D00000000EEFF000D /* ScanResultView.swift in Sources */,
+				EEFF000E00000000EEFF000E /* AnnotatedImageView.swift in Sources */,
+				EEFF000F00000000EEFF000F /* ResultsTableView.swift in Sources */,
+				EEFF001000000000EEFF0010 /* SessionHistoryView.swift in Sources */,
+				EEFF001100000000EEFF0011 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +520,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lab-code-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = HZ5GDHY7LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to scan DataMatrix barcodes on cryovial storage boxes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app can save annotated scan images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app can import photos of storage boxes from your photo library.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -456,8 +560,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lab-code-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = HZ5GDHY7LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to scan DataMatrix barcodes on cryovial storage boxes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app can save annotated scan images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app can import photos of storage boxes from your photo library.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -490,6 +598,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ5GDHY7LU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
@@ -512,6 +621,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ5GDHY7LU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
@@ -533,6 +643,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ5GDHY7LU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
@@ -554,6 +665,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ5GDHY7LU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
